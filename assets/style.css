@@ -10,6 +10,11 @@
     margin: auto;
 }
 
+.container-small {
+    max-width: 1000px;
+    margin: auto;
+}
+
 header {
     background-color: #B4D0E7;
 }
@@ -49,13 +54,13 @@ li a  {
 h1 {
     font-size: 4rem;
     text-align: center;
-    padding-inline: 9rem;
+    /* padding-inline: 9rem; */
     padding-top: 1rem;
 }
 
 .content {
     display: flex;
-    /* padding: 1rem; */
+    padding-right: 3rem;
 }
 
 .content img {
@@ -68,6 +73,26 @@ h1 {
     display: flex;
     flex-direction: column;
     padding-top: 6rem;
-    padding-left: 10rem;
+    padding-left: 8rem;
     gap: 2rem;
 }
+
+
+/* main */
+
+
+.sct1 {
+    padding-top: 8rem;
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-bottom {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
