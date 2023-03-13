@@ -4,3 +4,35 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+.container-large {
+
+}
+
+nav {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-sx, .nav-dx {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-sx img {
+    height: 2em;
+}
+
+.ul-nav {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+li a  {
+    text-decoration: none;
+}
+
