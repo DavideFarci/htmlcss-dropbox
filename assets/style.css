@@ -89,18 +89,20 @@ h1 {
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
 .card {
-    height: 900px;
     width: calc(100% / 3 - 1rem);
+    border: 1px solid grey;
+    flex: 1 1 auto;
 }
 
 .title-card {
     text-align: center;
     padding: 1rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
 }
 
 .content1 {
@@ -127,8 +129,30 @@ hr {
 }
 
 .card-bottom {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    /* display: flex; */
+    /* height: 350px; */
+    width: 100%;
+    border: 1px solid grey;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+.content1-bott {
+    display: flex;
+    /* padding: 1rem; */
+}
+
+.text-card4 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80% ;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.button-card4 {
+    padding: 1rem;
+    flex-basis: 20%;
 }
 
 /* section 2  */
