@@ -87,6 +87,15 @@ h1 {
     padding-top: 8rem;
 }
 
+.title-sct1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sct1 :nth-child(2) {
+    margin-bottom: 4rem;
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
