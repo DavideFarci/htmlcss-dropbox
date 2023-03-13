@@ -88,7 +88,7 @@ h1 {
 }
 
 .title-sct1 {
-    font-size: 3rem;
+    font-size: 3rem; /*usare stessa dimensione per la 3a sezione */
     margin-bottom: 2rem;
 }
 
@@ -192,4 +192,23 @@ h3 {
     font-size: 1.5rem;
 }
 
+/* section 3 */
 
+.mini-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+}
+
+.mini-card {
+    /* flex: 0 1 auto; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: calc(100% / 3 - 1rem);
+    height: calc(100% / 2 - 1rem);
+}
+
+.mini-card img {
+    width: 15em;
+}
