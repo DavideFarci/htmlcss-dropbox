@@ -328,3 +328,44 @@ h3 {
     margin: 1.5rem 19rem 1.5rem 0;
 }
 
+/* footer  */
+
+footer {
+    font-size: .8em;
+    color: white;
+    background-color: black;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    padding: 5rem 0;
+    border-bottom: 1px solid white;
+}
+
+
+.links li {
+    list-style: none;
+    white-space: nowrap;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.links ul :first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+
+.lang {
+    color: grey;
+    font-size: 1.2em;
+    padding: 3rem 0 3rem 5rem;
+    position: relative;
+    left: -80px;
+}
