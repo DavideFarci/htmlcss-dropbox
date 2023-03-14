@@ -15,6 +15,13 @@
     margin: auto;
 }
 
+.btn-regular {
+    text-decoration: none;
+    padding: .5em .7em;
+    white-space: nowrap;
+    display: inline-block;
+}
+
 header {
     background-color: #B4D0E7;
 }
@@ -24,12 +31,17 @@ nav {
     height: 4rem;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding-inline: .5rem ;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
 }
 
 .nav-sx, .nav-dx {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 1rem;
 }
 
@@ -39,6 +51,7 @@ nav {
 
 .ul-nav {
     display: flex;
+    align-items: center;
     gap: 1rem;
     list-style: none;
 }
@@ -92,7 +105,7 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.sct1 :nth-child(2) {
+.sct1 > :nth-child(2) {
     margin-bottom: 4rem;
 }
 
@@ -123,6 +136,9 @@ h1 {
 
 .more-gap {
     margin-bottom: 1.5rem;
+    padding: .5em .7em;
+    white-space: nowrap;
+    display: inline-block;
 }
     
 
@@ -217,4 +233,5 @@ h3 {
 
 .mini-card img {
     width: 15em;
+    
 }
