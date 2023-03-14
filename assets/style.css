@@ -45,7 +45,6 @@ nav {
 
 .nav-sx, .nav-dx {
     display: flex;
-    /* align-items: center; */
     gap: 1rem;
 }
 
@@ -138,11 +137,16 @@ h1 {
     padding: 1rem;
 }
 
+.content1 > :nth-child(7) {
+    margin-bottom: 3rem;
+}
+
+.bigger {
+    margin-bottom: 3rem;
+}
+
 .more-gap {
     margin-bottom: 1.5rem;
-    padding: .5em .7em;
-    white-space: nowrap;
-    display: inline-block;
 }
     
 
@@ -217,7 +221,7 @@ h3 {
 .title-sct3 {
     font-size: 3rem;
     margin-top: 6rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .mini-cards {
@@ -267,13 +271,11 @@ h3 {
     flex-wrap: wrap;
     max-width: calc(100% / 3);
     aspect-ratio: 1 / 1;
-    /* flex-grow: 1; */
     overflow-y: auto;
 }
 
 .teams-center {
     padding: 6rem;
-    /* flex-grow: 1; */
     width: calc(100% / 3);
     aspect-ratio: 1 / 1;
     overflow-y: auto;
@@ -288,33 +290,70 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 4rem;
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
     overflow-y: auto;
 }
 
-.teams img  {
-    width: 100%;
+.one {
+    background-color: #A2D39B;
+    border: 20px solid #c5eabf;
 }
 
+.two {
+    background-color: #61082B;
+}
 
+.three {
+    background-color: #0093CE;
+}
+
+.four {
+    background-color: #FF1C1C;
+}
+
+.five {
+    background-color: #D5001F;
+}
+
+.six {
+    background-color: #B4D0E7;
+}
+
+.seven {
+    background-color: #0D2481;
+}
+
+.eight {
+    background-color: #FFD830;
+}
+
+.teams img  {
+    width: 100%;
+    filter: invert(1);
+}
+
+/* section 6 */
 
 .sct6 {
-    background-color: salmon;
+    background-color: #B4D0E7;
+}
+
+.content6 {
     position: relative;
 }
 
 .content6 :last-child {
     position: absolute;
-    top: 7rem;
+    top: 8rem;
+    right: 2rem;
 }
 
 .title-sct6 {
     font-size: 3rem;
-    padding: 6rem 0;
+    padding: 6rem 9rem 6rem 0;
     width: 80%;
-    display: inline-block;
 }
 
 /* section 7  */
@@ -323,9 +362,13 @@ h3 {
     padding: 8rem 0;
 }
 
-.sct7 > div, h2 {
+.sct7 h2 {
+    margin: 1.5rem 0;
+}
+
+.sct7 > div {
     display: inline-block;
-    margin: 1.5rem 19rem 1.5rem 0;
+    margin: 2rem 19rem 2rem 0;
 }
 
 /* footer  */
