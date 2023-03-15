@@ -105,20 +105,13 @@ nav {
     left: 0;
     top: calc(100% + .50rem);
     background-color: white;
-    /* padding: .75rem; */
     border-radius: .25rem;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .4);
     opacity: 0;
     transition: opacity 100ms ease-in-out;
-    /* transform: translateY(-10px); */
 }
 
-.dropdown > a:hover + .dropdown-menu {
-    opacity: 1;
-    /* transform: translateY(0); */
-}
-
-.dropdown-menu:hover {
+.dropdown > a:focus + .dropdown-menu {
     opacity: 1;
 }
 
@@ -129,7 +122,6 @@ nav {
 h1 {
     font-size: 4rem;
     text-align: center;
-    /* padding-inline: 9rem; */
     padding-top: 1rem;
 }
 
