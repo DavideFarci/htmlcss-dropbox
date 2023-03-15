@@ -96,6 +96,32 @@ nav {
     text-decoration: none;
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + .50rem);
+    background-color: white;
+    /* padding: .75rem; */
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .4);
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    /* transform: translateY(-10px); */
+}
+
+.dropdown > a:focus + .dropdown-menu {
+    opacity: 1;
+    /* transform: translateY(0); */
+}
+
+.ul-nav .dropdown-menu li a {
+    padding: .75rem;
+}
+
 h1 {
     font-size: 4rem;
     text-align: center;
