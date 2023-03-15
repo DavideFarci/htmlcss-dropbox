@@ -158,9 +158,9 @@ h1 {
     gap: 1rem;
     padding: 1rem;
 }
-/* 
-.content1 i {
-    margin-right: .5rem;
+
+/* .content1 i {
+    margin-bottom: .5rem;
 } */
 
 .content1 > :nth-child(7) {
@@ -222,7 +222,7 @@ h1 {
 
 
 .sct2 {
-    padding-top: 3rem;
+    padding-top: 10rem;
 }
 
 .content2 {
@@ -247,6 +247,10 @@ h3 {
 }
 
 /* section 3 */
+
+.sct3 {
+    padding-top: 3rem;
+}
 
 .title-sct3 {
     font-size: 3rem;
