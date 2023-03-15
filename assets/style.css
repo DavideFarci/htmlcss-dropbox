@@ -334,6 +334,10 @@ h3 {
 
 .one {
     background-color: #A2D39B;
+}
+
+.one:hover {
+    cursor: pointer;
     border: 20px solid #c5eabf;
 }
 
@@ -341,28 +345,63 @@ h3 {
     background-color: #61082B;
 }
 
+.two:hover {
+    cursor: pointer;
+    border: 20px solid #cc145d;
+}
+
 .three {
     background-color: #0093CE;
+}
+
+.three:hover {
+    cursor: pointer;
+    border: 20px solid #04b7fe;
 }
 
 .four {
     background-color: #FF1C1C;
 }
 
+.four:hover {
+    cursor: pointer;
+    border: 20px solid #f87575;
+}
+
 .five {
     background-color: #D5001F;
+}
+
+.five:hover {
+    cursor: pointer;
+    border: 20px solid #fe4a65;
 }
 
 .six {
     background-color: #B4D0E7;
 }
 
+.six:hover {
+    cursor: pointer;
+    border: 20px solid #ebf0f5;
+}
+
 .seven {
     background-color: #0D2481;
 }
 
+.seven:hover {
+    cursor: pointer;
+    border: 20px solid #546092;
+}
+
 .eight {
     background-color: #FFD830;
+}
+
+.eight:hover {
+    cursor: pointer;
+    border: 20px solid #f6e391;
 }
 
 .teams img  {
