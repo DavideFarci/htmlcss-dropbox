@@ -146,15 +146,19 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.fa-circle-dot {
+.sct1 .fa-circle-dot {
     color: #0093CE;
 }
 
-.fa-circle-dot:hover {
+.sct1 .fa-circle-dot:hover {
     cursor: pointer;
 }
 
-.fa-circle:hover {
+.sct1 .fa-circle {
+    margin-left: 2rem;
+}
+
+.sct1 .fa-circle:hover {
     cursor: pointer;
 }
 
