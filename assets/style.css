@@ -23,11 +23,13 @@ body {
     padding: .5em .7em;
     white-space: nowrap;
     display: inline-block;
+    cursor: pointer;
 }
 
 .btn-blue {
     background-color: #0061FF;
     color: white;
+    cursor: pointer;
 }
 
 header {
