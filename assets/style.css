@@ -319,6 +319,15 @@ h3 {
 
 .teams-center img {
     height: 5em;
+    margin-bottom: 2rem;
+}
+
+.teams-center hr {
+    width: 20%;
+}
+
+.teams-center p {
+    margin-top: 2rem;
 }
 
 
