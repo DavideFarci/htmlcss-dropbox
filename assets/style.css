@@ -107,12 +107,12 @@ nav {
     background-color: white;
     border-radius: .25rem;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .4);
-    opacity: 0;
+    display: none;
     transition: opacity 100ms ease-in-out;
 }
 
 .dropdown > a:focus + .dropdown-menu {
-    opacity: 1;
+    display: unset;
 }
 
 .ul-nav .dropdown-menu li a {
