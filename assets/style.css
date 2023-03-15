@@ -32,6 +32,11 @@ body {
     cursor: pointer;
 }
 
+.btn-regular:hover,
+.btn-blue:hover {
+    text-decoration: underline;
+}
+
 header {
     background-color: #B4D0E7;
 }
