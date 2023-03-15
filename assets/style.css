@@ -109,13 +109,17 @@ nav {
     border-radius: .25rem;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .4);
     opacity: 0;
-    transition: opacity 150ms ease-in-out;
+    transition: opacity 100ms ease-in-out;
     /* transform: translateY(-10px); */
 }
 
-.dropdown > a:focus + .dropdown-menu {
+.dropdown > a:hover + .dropdown-menu {
     opacity: 1;
     /* transform: translateY(0); */
+}
+
+.dropdown-menu:hover {
+    opacity: 1;
 }
 
 .ul-nav .dropdown-menu li a {
