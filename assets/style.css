@@ -75,6 +75,7 @@ nav {
 .ul-nav li:hover {
     cursor: pointer;
     background-color: rgba(180,208,231,0.5) ;
+    border-bottom: 2px solid #67a7db;
 }
 
 .ul-nav .first:hover {
@@ -490,6 +491,11 @@ footer {
 .links li {
     list-style: none;
     white-space: nowrap;
+}
+
+.links li:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .links ul {
