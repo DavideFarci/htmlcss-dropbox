@@ -77,6 +77,14 @@ nav {
     background-color: rgba(180,208,231,0.5) ;
 }
 
+.ul-nav .first:hover {
+    background-color: white;
+}
+
+.ul-nav .last:hover {
+    background-color: white;
+}
+
 .ul-nav li a  {
     text-decoration: none;
 }
