@@ -25,6 +25,11 @@ body {
     display: inline-block;
 }
 
+.btn-blue {
+    background-color: #0061FF;
+    color: white;
+}
+
 header {
     background-color: #B4D0E7;
 }
