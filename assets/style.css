@@ -517,3 +517,7 @@ footer {
     position: relative;
     left: -80px;
 }
+
+.fa-caret-up:hover {
+    cursor: pointer;
+}
