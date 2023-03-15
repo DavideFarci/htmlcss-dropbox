@@ -61,17 +61,24 @@ nav {
 
 .ul-nav {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 1rem;
     list-style: none;
 }
 
-li a  {
-    text-decoration: none;
+.ul-nav li {
+    display: flex;
+    align-items: center;
+    padding-inline: .5rem;
 }
 
-.header-content {
-    /* background-color: #B4D0E7; */
+.ul-nav li:hover {
+    cursor: pointer;
+    background-color: rgba(180,208,231,0.5) ;
+}
+
+.ul-nav li a  {
+    text-decoration: none;
 }
 
 h1 {
