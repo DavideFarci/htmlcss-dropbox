@@ -108,7 +108,7 @@ nav {
     border-radius: .25rem;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .4);
     display: none;
-    transition: opacity 100ms ease-in-out;
+    transition: opacity 200ms;
 }
 
 .dropdown > a:focus + .dropdown-menu {
