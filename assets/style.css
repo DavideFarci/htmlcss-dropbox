@@ -111,7 +111,7 @@ nav {
     transition: opacity 200ms;
 }
 
-.dropdown > a:focus + .dropdown-menu {
+.dropdown:hover {
     display: unset;
 }
 
@@ -250,8 +250,8 @@ h1 {
     /* height: 350px; */
     width: 100%;
     border: 1px solid grey;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 .content1-bott {
